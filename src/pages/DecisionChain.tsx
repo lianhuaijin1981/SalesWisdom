@@ -3,14 +3,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import {
   Network, Layers, Grid3X3, Route, ZoomIn, ZoomOut, Maximize,
   Shield, Briefcase, Heart, Star, Flag, Users, AlertTriangle, Brain,
-  ChevronDown, ChevronUp, Copy, Check, Sparkles, X, CircleDot,
-  Hexagon, Diamond, Triangle,
+  ChevronDown, ChevronUp, Sparkles, X,
 } from 'lucide-react';
 import Layout from '@/components/Layout';
 import {
   personNodes, edges, layerConfigs, stanceColors, stanceLabels,
-  edgeTypeConfig, type PersonNode, type EdgeType, type LayerType,
-  influenceMatrix, attackPath, dimensionLabels, dimensionIcons,
+  edgeTypeConfig, type PersonNode, type LayerType,
+  influenceMatrix, attackPath,
 } from '@/data/decisionChainMockData';
 
 const ease = [0.16, 1, 0.3, 1] as [number, number, number, number];
